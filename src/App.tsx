@@ -10,7 +10,7 @@ function App() {
     <>
       <div>
         <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+          <img src={viteLogo} className="logo" alt="Vite" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React loo" />
@@ -24,7 +24,7 @@ function App() {
         <p>
           Клікай і не будь байдужим до світу навколо!
         </p>
-      
+
         
       </div>
     </>
