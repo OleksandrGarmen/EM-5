@@ -1,0 +1,20 @@
+.blog-container {
+  width: 700px; 
+  height: 220px;
+  border-radius: 30px;
+  background: #3d3737;
+}
+.blog-title{
+    margin-right: 130px;
+}
+.blog-date{
+    margin-left: -570px;
+    color: #898287;
+    margin-top: -10px;
+}
+.blog-excerp{
+    margin-right: 25px;
+}
+.blog-tags{
+    margin-left: -590px;
+}

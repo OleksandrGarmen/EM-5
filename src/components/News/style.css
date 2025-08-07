@@ -1,0 +1,57 @@
+/* Контейнер */
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: #575764; /* світло-сірий фон */
+}
+
+/* Картка */
+.news {
+  background-color: #57575b;
+  border: 2px solid #e4e4e7;
+  border-radius: 12px;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.news:hover {
+  border-color: #6366f1;
+  background-color: #fafafa;
+}
+
+/* Заголовок */
+.news-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 0.8rem 0;
+  line-height: 1.4;
+}
+
+/* Посилання */
+.small-desc {
+  font-size: 0.95rem;
+  color: #4f46e5;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-bottom: auto;
+  transition: color 0.3s ease;
+}
+
+.small-desc:hover {
+  color: #3730a3;
+}
+
+/* Час */
+.news-time {
+  font-size: 0.8rem;
+  color: #6b7280;
+  font-style: normal;
+  margin-top: 1rem;
+  text-align: left;
+}

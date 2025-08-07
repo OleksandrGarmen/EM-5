@@ -1,32 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
+import newsData from './fixture/news';
+import News from './components/News'
+import BlogData from './fixture/blog';
+import Blog from './components/Blog'
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React loo" />
-        </a>
-      </div>
-      <h1>Oleksandr Reactor</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          КЛІКАЙ {count}
-        </button>
-        <p>
-          Клікай і не будь байдужим до світу навколо!
-        </p>
+   <News {...newsData[0]} />
+    <News {...newsData[1]} />
+    <News {...newsData[2]} />
+    <News {...newsData[3]} />
+    <News {...newsData[4]} />
+    <News {...newsData[5]} />
+    <News {...newsData[6]} />
+    <News {...newsData[7]} />
+    
 
-        
-      </div>
+    <Blog {...BlogData[0]} />
     </>
   )
 }
